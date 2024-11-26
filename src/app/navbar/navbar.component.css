@@ -1,0 +1,30 @@
+/* Estilos para a barra de navegação */
+.navbar {
+    background-color: #1a1a1a; /* Cor de fundo preta */
+    padding: 10px 0;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .navbar-item {
+    color: white; /* Texto branco */
+    margin: 0 20px;
+    font-size: 1.2rem;
+    text-decoration: none;
+  }
+  
+  .navbar-item:hover {
+    color: #0066cc; /* Azul no hover */
+    text-decoration: underline;
+  }
+  
+  .navbar-item.active {
+    color: #0066cc; /* Cor azul quando o link está ativo */
+  }
+  

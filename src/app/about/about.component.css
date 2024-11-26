@@ -1,0 +1,23 @@
+/* Cor de fundo da página sobre */
+.about-container {
+  background-color: #1a1a1a; /* Fundo preto escuro */
+  color: white; /* Cor do texto */
+  text-align: center;
+  padding: 50px;
+  border-radius: 10px;
+}
+
+/* Estilo para o título */
+.about-container h1 {
+  font-size: 3rem;
+  color: #0066cc; /* Cor azul para o título */
+  margin-bottom: 20px;
+}
+
+/* Estilo para o parágrafo */
+.about-container p {
+  font-size: 1.5rem;
+  color: white; /* Cor branca para o texto */
+  margin-top: 20px;
+  line-height: 1.6;
+}

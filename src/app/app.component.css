@@ -1,0 +1,5 @@
+/* Garantindo que o conteúdo não fique sobrepondo a Navbar */
+router-outlet {
+    padding-top: 20px;
+  }
+  
